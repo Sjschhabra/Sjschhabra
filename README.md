@@ -19,8 +19,8 @@
 
 ```python
 class SameerjeetChhabra:
-    degree    = "M.S. Mechatronics, Robotics & Automation — ASU  |  GPA: 3.78 / 4.0"
-    location  = "Tempe, Arizona  →  Open to relocation"
+    degree    = "M.S. Robotics & Autonomous Systems — ASU  |  GPA: 3.78 / 4.0"
+    location  = "Mesa, Arizona  →  Open to relocation"
     focus     = ["Legged Locomotion", "MPC", "Sim-to-Real Transfer", "Sensor Fusion"]
     stack     = ["MuJoCo", "ROS2", "MoveIt2", "PyTorch", "Open3D", "OpenCV", "MATLAB"]
     languages = ["Python", "C++"]
