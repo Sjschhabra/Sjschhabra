@@ -1,95 +1,116 @@
-<!-- Header -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Sjschhabra/Sjschhabra/main/header.svg" width="100%" alt="Sameerjeet Singh Chhabra"/>
+</div>
+
+<br/>
+
 <div align="center">
 
-```
-███████╗ █████╗ ███╗   ███╗███████╗███████╗██████╗      ██╗███████╗███████╗████████╗
-██╔════╝██╔══██╗████╗ ████║██╔════╝██╔════╝██╔══██╗     ██║██╔════╝██╔════╝╚══██╔══╝
-███████╗███████║██╔████╔██║█████╗  █████╗  ██████╔╝     ██║█████╗  █████╗     ██║   
-╚════██║██╔══██║██║╚██╔╝██║██╔══╝  ██╔══╝  ██╔══██╗██   ██║██╔══╝  ██╔══╝     ██║   
-███████║██║  ██║██║ ╚═╝ ██║███████╗███████╗██║  ██║╚█████╔╝███████╗███████╗   ██║   
-╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝ ╚════╝ ╚══════╝╚══════╝   ╚═╝   
-```
-
-**`Robotics Engineer · MPC · Sim-to-Real · Sensor Fusion`**
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-sjschhabra.github.io-00FF88?style=for-the-badge&logo=github&logoColor=black)](https://sjschhabra.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sameerjeetsinghchhabra)
-[![Email](https://img.shields.io/badge/Email-Contact-FF4444?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sameerjeetsinghchhabra@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-sjschhabra.github.io-38bdf8?style=for-the-badge&logo=github&logoColor=white)](https://sjschhabra.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0ea5e9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sjschhabra/)
+[![Email](https://img.shields.io/badge/Email-0284c7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sameerjeetsinghchhabra@gmail.com)
+[![YouTube](https://img.shields.io/badge/YouTube-0369a1?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@elusiveastra)
 
 </div>
 
 ---
 
-<!-- About -->
-## `> whoami`
+## About Me
 
 ```python
-class RoboticsEngineer:
-    name     = "Sameerjeet Singh Chhabra"
-    degree   = "M.S. Mechatronics, Robotics & Automation @ ASU (GPA: 3.78)"
-    focus    = ["Sim-to-Real", "MPC", "Sensor Fusion", "Legged Locomotion"]
-    tools    = ["MuJoCo", "ROS2", "PyTorch", "MoveIt2", "Open3D"]
-    langs    = ["Python", "C++"]
-    status   = "Graduating May 2026 · Open to full-time roles"
+class SameerjeetChhabra:
+    degree    = "M.S. Mechatronics, Robotics & Automation — ASU  |  GPA: 3.78 / 4.0"
+    location  = "Tempe, Arizona  →  Open to relocation"
+    focus     = ["Legged Locomotion", "MPC", "Sim-to-Real Transfer", "Sensor Fusion"]
+    stack     = ["MuJoCo", "ROS2", "MoveIt2", "PyTorch", "Open3D", "OpenCV", "MATLAB"]
+    languages = ["Python", "C++"]
+    hardware  = ["Jetson Nano", "Raspberry Pi", "Arduino", "LiDAR", "Stereo Cameras"]
+    currently = "Building Project Eleven — 20 cm Bipedal/Quadruped with MPC"
+    status    = "Graduating May 2026  ·  Seeking full-time robotics roles"
 ```
 
 ---
 
-<!-- Projects -->
-## `> ls projects/`
+## Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🤖 Project Eleven — Bipedal/Quadruped Robot
-`MuJoCo · MPC · URDF/MJCF · SolidWorks`
+**Project Eleven — Bipedal / Quadruped Robot**
 
-Designed a 20cm bipedal/quadruped from scratch — 3-DoF per leg, full sensor suite (IMU + contact sensors), stable static balance in sim. Currently implementing MPC for dynamic locomotion with real-time joint torque optimization.
+`MuJoCo` `MPC` `URDF/MJCF` `SolidWorks` `C++`
 
-</td>
-<td width="50%">
-
-### 🦗 Grasshopper Walking Robot — Sim-to-Real
-`MuJoCo · System ID · Bio-inspired`
-
-Bio-inspired four-bar linkage walker — zero off-the-shelf structural parts. Full system identification (stiffness, damping, friction, servo dynamics) from hardware experiments. **5–22% sim-to-real error** across locomotion metrics.
+Designed a 20 cm bipedal/quadruped from scratch with 3-DoF per leg (hip, knee, ankle). Exported SolidWorks CAD to URDF, compiled to MuJoCo MJCF with tuned actuators, joint limits, damping, and stiffness. Full sensor suite — IMU + contact sensors. Stable static balance achieved in sim. Currently implementing **Model Predictive Control** for dynamic locomotion with real-time joint torque optimization.
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🦾 Voice-Operated Mobile Manipulator
-`ROS2 · MoveIt2 · YOLOv8 · SLAM · Nav2`
+**Grasshopper-Inspired Walking Robot — Sim-to-Real**
 
-TurtleBot4 + myCobot 280 fully integrated. **92% object detection**, **±5cm localization**, **85% voice recognition** in live unscripted operation. Full autonomy stack from speech to pick-and-place.
+`MuJoCo` `System Identification` `SG90 Servos` `Cardboard`
 
-</td>
-<td width="50%">
-
-### 👁️ MuJoCo Depth Reconstruction Pipeline
-`Open3D · Stereo Vision · Point Clouds`
-
-6-DoF arm with stereo end-effector camera on linear slider. Fused **100k+ 3D points** from 50+ camera poses using calibrated intrinsics/extrinsics + FK. Poisson surface reconstruction under simulated range-dependent noise.
+Bio-inspired four-bar linkage walker fabricated from laminated cardboard — zero off-the-shelf structural parts. Ran system identification experiments to extract stiffness, damping, friction, and servo dynamics from hardware. Embedded all measured parameters into a MuJoCo physics model. Parameter sweeps + simulation-based gait optimization predicted real hardware performance within **5–22% sim-to-real error**.
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🧠 6-DoF Arm — Custom IK + Computer Vision
-`Newton-Raphson IK · OpenCV · A*`
+**Voice-Operated Mobile Manipulator**
 
-IK solver from scratch — **±0.2mm end-effector accuracy** across full workspace. Integrated real-time vision + A* path planning. Solved physical maze with **95% success rate** over 20+ trials.
+`ROS2` `MoveIt2` `Nav2` `YOLOv8` `SLAM` `AMCL`
+
+Integrated TurtleBot4 and myCobot 280 arm in a full autonomous stack. SLAM for mapping, AMCL for ±5 cm localization, Nav2 for navigation, MoveIt2 for arm motion planning, YOLOv8 for object detection at **92% accuracy**, and a speech-to-text voice command pipeline with **85% recognition accuracy** in live unscripted operation.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🚁 UAV Dynamic Landing — Vision Controller
-`MATLAB Simulink · Control Systems`
+**MuJoCo Robotic Arm — 3D Depth Reconstruction**
 
-Real-time vision-based line tracking controller for dynamic UAV landing. Validated stable closed-loop tracking behavior in simulation.
+`Open3D` `Stereo Vision` `Point Clouds` `Forward Kinematics`
+
+Built a 6-DoF arm in MuJoCo with a stereo end-effector depth camera (90° FoV) on a linear slider. Transformed depth images from **50+ camera poses** into world-frame point clouds using calibrated intrinsics, extrinsics, and forward kinematics. Fused **100k+ 3D points** and executed Poisson surface reconstruction under simulated range-dependent noise.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**6-DoF Robotic Arm — Custom IK Solver & Vision**
+
+`C++` `Newton-Raphson IK` `OpenCV` `A* Path Planning`
+
+Derived and implemented a Newton-Raphson inverse kinematics solver from scratch achieving **±0.2 mm end-effector accuracy** across the full workspace. Integrated a real-time OpenCV vision pipeline with A* path planning. Solved a physical maze course with **95% success rate** over 20+ trials.
+
+</td>
+<td width="50%" valign="top">
+
+**PLC-Controlled Semiconductor Automation System**
+
+`Allen Bradley` `Ladder Logic` `HMI` `SCARA`
+
+Automated wafer handling system using Allen Bradley PLC, SCARA robots, and laser processing with coordinated motion control. Designed full HMI interface, programmed ladder logic sequences, and validated end-to-end automation pipeline.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Smart Semiconductor Manufacturing — IIoT**
+
+`MQTT` `Edge ML` `XGBoost` `SCADA` `AWS IoT`
+
+Real-time wafer defect detection system using a 5-layer IIoT architecture with edge ML. Achieved **94.5% detection accuracy** and **< 50 ms latency** using XGBoost at the edge. Designed MQTT/OPC-UA data pipeline from sensor to cloud.
+
+</td>
+<td width="50%" valign="top">
+
+**UAV Dynamic Landing — Vision Line Tracking**
+
+`MATLAB/Simulink` `Control Systems` `Computer Vision`
+
+Real-time vision-based line tracking controller for dynamic UAV landing designed in MATLAB Simulink. Validated stable closed-loop tracking behaviour in simulation. End-to-end controller from perception to actuation command.
 
 </td>
 </tr>
@@ -97,82 +118,65 @@ Real-time vision-based line tracking controller for dynamic UAV landing. Validat
 
 ---
 
-<!-- Stack -->
-## `> cat tech_stack.txt`
-
-**Simulation & Modeling**
-
-![MuJoCo](https://img.shields.io/badge/MuJoCo-grey?style=flat-square)
-![Gazebo](https://img.shields.io/badge/Gazebo-grey?style=flat-square)
-![MATLAB](https://img.shields.io/badge/MATLAB%2FSimulink-grey?style=flat-square)
-![Isaac Lab](https://img.shields.io/badge/Isaac_Lab_(familiar)-grey?style=flat-square)
-
-**Control & Estimation**
-
-![MPC](https://img.shields.io/badge/Model_Predictive_Control-1a1a2e?style=flat-square&color=00FF88)
-![Kalman](https://img.shields.io/badge/Kalman_Filter-1a1a2e?style=flat-square&color=00FF88)
-![IK/FK](https://img.shields.io/badge/Inverse%2FForward_Kinematics-1a1a2e?style=flat-square&color=00FF88)
-![PID](https://img.shields.io/badge/PID-1a1a2e?style=flat-square&color=00FF88)
-
-**Robotics Stack**
-
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
-![MoveIt2](https://img.shields.io/badge/MoveIt2-22314E?style=flat-square)
-![Nav2](https://img.shields.io/badge/Nav2-22314E?style=flat-square)
-
-**ML & Perception**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-grey?style=flat-square)
-![Open3D](https://img.shields.io/badge/Open3D-grey?style=flat-square)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
----
-
-<!-- Achievements -->
-## `> cat achievements.log`
-
-```
-[2026] 🥉 Honeywell × ASU Hackathon    — 3rd Place · $2,500
-         └─ Robotic tube insertion system for heat exchangers
-            Chamfered alignment + vibration self-alignment + linear actuation
-
-[2025] 🥈 Los Alamos National Lab × ASU — 2nd Place · $5,000  
-         └─ Automated mechanical unpacking system for MinION Flow Cells
-
-[2023] 📄 Publication: Cable-Suspended Parallel Robot (FarmPet)
-         └─ IJRASET, February 2023
-
-[Ongoing] 🔬 GHOST Lab ASU
-         └─ Hands-on: Fetch · YuMi · Husky · UR5 · TurtleBot (HRI Research)
-```
-
----
-
-<!-- Stats -->
-## `> system --status`
+## Tech Stack
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sjschhabra&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF88&icon_color=00FF88)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sjschhabra&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF88)
+![Python](https://img.shields.io/badge/Python-0369a1?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-0284c7?style=flat-square&logo=cplusplus&logoColor=white)
+![ROS2](https://img.shields.io/badge/ROS2-0ea5e9?style=flat-square&logo=ros&logoColor=white)
+![MuJoCo](https://img.shields.io/badge/MuJoCo-0369a1?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-0284c7?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-0ea5e9?style=flat-square&logo=opencv&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0369a1?style=flat-square)
+![MoveIt2](https://img.shields.io/badge/MoveIt2-0284c7?style=flat-square)
+![Open3D](https://img.shields.io/badge/Open3D-0ea5e9?style=flat-square)
+![Isaac Lab](https://img.shields.io/badge/Isaac_Lab-0369a1?style=flat-square&logo=nvidia&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-0284c7?style=flat-square)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0ea5e9?style=flat-square&logo=tensorflow&logoColor=white)
+![Jetson Nano](https://img.shields.io/badge/Jetson_Nano-0369a1?style=flat-square&logo=nvidia&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-0284c7?style=flat-square&logo=arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-0ea5e9?style=flat-square&logo=raspberrypi&logoColor=white)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-0369a1?style=flat-square)
+![Allen Bradley](https://img.shields.io/badge/Allen_Bradley_PLC-0284c7?style=flat-square)
 
 </div>
 
 ---
 
+## Achievements
+
 <div align="center">
 
-```
-[ BUILDING ROBOTS THAT WORK IN THE REAL WORLD ]
-```
+| | |
+|:--|:--|
+| 🥉 **Honeywell × ASU Hackathon 2026 — 3rd Place · $2,500** | Robotic tube insertion for heat exchangers using chamfered alignment, vibration self-alignment, and linear actuation. Validated with 3D-printed prototypes. |
+| 🥈 **Los Alamos National Lab × ASU 2025 — 2nd Place · $5,000** | Designed automated mechanical unpacking and sequencing system for MinION Flow Cells under time constraints. |
+| 📄 **Publication · IJRASET · February 2023** | Design and Inverse Kinematics Analysis of Cable-Suspended Parallel Robot FarmPet for Agricultural Application |
+| 🔬 **GHOST Lab · Arizona State University** | Hands-on operation of Fetch, YuMi, Husky, UR5, and TurtleBot platforms for HRI research |
 
-*M.S. Mechatronics · Arizona State University · Graduating May 2026*
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Sjschhabra&show_icons=true&hide_border=true&bg_color=0c1a2e&title_color=38bdf8&icon_color=7dd3fc&text_color=bae6fd&count_private=true"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sjschhabra&layout=compact&hide_border=true&bg_color=0c1a2e&title_color=38bdf8&text_color=bae6fd"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sjschhabra&theme=react-dark&hide_border=true&bg_color=0c1a2e&color=38bdf8&line=7dd3fc&point=bae6fd" width="100%"/>
+</div>
+
+---
+
+<div align="center">
+<br/>
+
+*Building intelligent systems that bridge the gap between simulation and reality.*
+
+![](https://komarev.com/ghpvc/?username=Sjschhabra&color=38bdf8&style=flat-square&label=profile+views)
 
 </div>
