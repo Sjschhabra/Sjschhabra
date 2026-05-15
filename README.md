@@ -1,16 +1,34 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sjschhabra/Sjschhabra/main/header.svg" width="100%" alt="Sameerjeet Singh Chhabra"/>
+  <img src="header.svg" width="100%" alt="Sameerjeet S. Chhabra"/>
 </div>
 
 <br/>
 
-
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-sjschhabra.github.io-38bdf8?style=for-the-badge&logo=github&logoColor=white)](https://sjschhabra.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0ea5e9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sjschhabra/)
-[![Email](https://img.shields.io/badge/Email-0284c7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sameerjeetsinghchhabra@gmail.com)
-[![YouTube](https://img.shields.io/badge/YouTube-0369a1?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@elusiveastra)
+<a href="https://sjschhabra.github.io">
+  <img src="https://img.shields.io/badge/🌐%20Portfolio-sjschhabra.github.io-0c1a2e?style=for-the-badge&labelColor=0c1a2e&color=38bdf8" height="32"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/sjschhabra/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0c1a2e?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0c1a2e&color=0a66c2" height="32"/>
+</a>
+&nbsp;
+<a href="mailto:sameerjeetsinghchhabra@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Email%20Me-0c1a2e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0c1a2e&color=ea4335" height="32"/>
+</a>
+&nbsp;
+<a href="https://www.youtube.com/@elusiveastra">
+  <img src="https://img.shields.io/badge/YouTube-Videos-0c1a2e?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0c1a2e&color=ff0000" height="32"/>
+</a>
+&nbsp;
+<a href="https://grabcad.com/sameerjeet.singh.chhabra-2">
+  <img src="https://img.shields.io/badge/GrabCAD-3D%20Models-0c1a2e?style=for-the-badge&logo=autodesk&logoColor=white&labelColor=0c1a2e&color=0696d7" height="32"/>
+</a>
+
+<br/><br/>
+
+![](https://komarev.com/ghpvc/?username=Sjschhabra&color=38bdf8&style=flat-square&label=profile+views)
 
 </div>
 
@@ -167,9 +185,7 @@ Real-time vision-based line tracking controller for dynamic UAV landing designed
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sjschhabra&layout=compact&hide_border=true&bg_color=0c1a2e&title_color=38bdf8&text_color=bae6fd"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sjschhabra&theme=react-dark&hide_border=true&bg_color=0c1a2e&color=38bdf8&line=7dd3fc&point=bae6fd" width="100%"/>
-</div>
+
 
 ---
 
@@ -177,7 +193,5 @@ Real-time vision-based line tracking controller for dynamic UAV landing designed
 <br/>
 
 *Building intelligent systems that bridge the gap between simulation and reality.*
-
-![](https://komarev.com/ghpvc/?username=Sjschhabra&color=38bdf8&style=flat-square&label=profile+views)
 
 </div>
